@@ -19,42 +19,42 @@
     <section class="nav d-flex ">
         <!-- nav -->
         <div class="nav-left d-flex flex-column">
-            <div class="nav-dashbord d-flex mx-3 my-3">
-                <i class="lni lni-dashboard-square-1 "></i>
-                <h1 class="ms-3">codzSword</h1>
+            <div class="nav-dashbord d-flex align-items-center m-3">
+                <i class="lni lni-dashboard-square-1"></i>
+                <h1 class="my-0 px-2">codzSword</h1>
             </div>
-            <div class="nav-flex my-5">
-                <div class="nav-menu d-flex ">
+            <div class="nav-flex flex-column my-5 gap-2">
+                <div class="nav-menu d-flex py-1 fs-5 align-items-center">
                     <i class="lni lni-user-4 ms-3"></i>
-                    <h3 class="menu mx-1">profile</h3>
-                </div>
-                <div class="nav-menu d-flex ">
+                    <p class="mb-0 ms-2">profile</p>
+                </div>                
+                <div class="nav-menu d-flex py-2 fs-5 align-items-center">
                     <i class="lni lni-book-1 ms-3"></i>
-                    <h3 class="menu mx-1">Task</h3>
+                    <h3 class="menu mx-1 my-0">Task</h3>
                 </div>
-                <div class="nav-menu d-flex ">
+                <div class="nav-menu d-flex py-2 fs-5 align-items-center">
                     <i class="lni lni-shield-2-check ms-3"></i>
-                    <h3 class="menu mx-1">Auth</h3>
+                    <h3 class="menu mx-1 my-0">Auth</h3>
                     <i class="lni lni-chevron-down ms-auto"></i>
                 </div>
-                <div class="nav-menu d-flex ">
+                <div class="nav-menu d-flex py-2 fs-5 align-items-center">
                     <i class="lni lni-agenda ms-3"></i>
-                    <h3 class="menu mx-1">Muiti Level</h3>
+                    <h3 class="menu mx-1 my-0">Muiti Level</h3>
                     <i class="lni lni-chevron-down ms-auto"></i>
                 </div>
-                <div class="nav-menu d-flex ">
+                <div class="nav-menu d-flex py-2 fs-5 align-items-center">
                     <i class="lni lni-bell-1 ms-3"></i>
-                    <h3 class="menu mx-1">Notification</h3>
+                    <h3 class="menu mx-1 my-0">Notification</h3>
                 </div>
-                <div class="nav-menu d-flex ">
+                <div class="nav-menu d-flex py-2 fs-5 align-items-center">
                     <i class="lni lni-gear-1 ms-3"></i>
-                    <h3 class="menu mx-1">Setting</h3>
+                    <h3 class="menu mx-1 my-0">Setting</h3>
                 </div>
 
             </div>
-            <div class="nav-menu d-flex mt-auto  nav-footer">
+            <div class="nav-menu d-flex py-2 mt-auto mb-2 nav-footer align-items-center">
                 <i class="lni lni-exit mx-1 "></i>
-                <h3 class="menu mx-1">logout</h3>
+                <h3 class="menu mx-1 my-0">logout</h3>
             </div>
 
 
@@ -67,11 +67,14 @@
                 <div class="nav-bar mx-3 my-3 ">
                     <div class="brean d-flex justify-content-between">
                         <div class="search-bar">
-                            <form action=""><input class="search" type="text" placeholder="search...">
-                                <button class="bnt bnt-sm ">sreach</button>
+                            <form action="">
+                                <div class="input-group">
+                                    <input class="search p-2 mx-1 rounded-1 fs-6 form-control" type="text" placeholder="Search...">
+                                    <button class="btn btn-sm rounded-1 px-3 btn-primary fs-6">Search</button>
+                                </div>
                             </form>
-    
                         </div>
+                        
     
                         <div class="profile">
                             <img src="Ay.png" alt="">
@@ -85,35 +88,53 @@
                 <div class="container">
                     <h2 class="fs-5 fw-bold">Administrator Dashbprd</h2>
                     <div class="row">
-                        <div class="col-4">
-                            <div class="card">
+
+                        <!-- card1 -->
+                        <div class="col-12 col-md-6 col-lg-4 my-2">
+                            <div class="card market-card">
                                 <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <h6 class="card-subtitle mb-2 ">Members Progress</h6>
-                                  <h6 class="fs-6">$72,540</h6>
-                                  <p class="card-text"><mark class="mark-text-card">+9.0%</mark>since last Month</p>
+                                  <h5 class="card-title fw-bold mb-3">Card title</h5>
+                                  <h6 class="card-subtitle mb-2 fw-semibold">Members Progress</h6>
+                                  <h6 class="fs-6 fw-bold">$72,540</h6>
+                                  <p class="card-text d-flex align-items-center justify-content-start fw-semibold fs-5">
+                                    <span class="bg-success text-white percent-text mx-1 px-1 py-0 rounded-1">+9.0%</span> since last Month
+                                </p>
+                                
+                                                             
                                  
                                 </div>
                               </div>    
                         </div>  
-                        <div class="col-4">
-                            <div class="card">
+
+                        <!-- card 2 -->
+                        <div class="col-12 col-md-6 col-lg-4 my-2">
+                            <div class="card market-card">
                                 <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <h6 class="card-subtitle mb-2 ">Members Progress</h6>
-                                  <h6 class="fs-6">$72,540</h6>
-                                  <p class="card-text"><mark class="mark-text-card">+9.0%</mark>since last Month</p>
+                                  <h5 class="card-title fw-bold mb-3">Card title</h5>
+                                  <h6 class="card-subtitle mb-2 fw-semibold">Members Progress</h6>
+                                  <h6 class="fs-6 fw-bold">$72,540</h6>
+                                  <p class="card-text d-flex align-items-center justify-content-start fw-semibold fs-5">
+                                    <span class="bg-success text-white percent-text mx-1 px-1 py-0 rounded-1">+9.0%</span> since last Month
+                                </p>
+                                
+                                                             
                                  
                                 </div>
                               </div>    
                         </div>  
-                        <div class="col-4">
-                            <div class="card">
+
+                        <!-- card 3 -->
+                        <div class="col-12 col-md-6 col-lg-4 my-2">
+                            <div class="card market-card">
                                 <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <h6 class="card-subtitle mb-2 ">Members Progress</h6>
-                                  <h6 class="fs-6">$72,540</h6>
-                                  <p class="card-text"><mark class="mark-text-card">+9.0%</mark>since last Month</p>
+                                  <h5 class="card-title fw-bold mb-3">Card title</h5>
+                                  <h6 class="card-subtitle mb-2 fw-semibold">Members Progress</h6>
+                                  <h6 class="fs-6 fw-bold">$72,540</h6>
+                                  <p class="card-text d-flex align-items-center justify-content-start fw-semibold fs-5">
+                                    <span class="bg-success text-white percent-text mx-1 px-1 py-0 rounded-1">+9.0%</span> since last Month
+                                </p>
+                                
+                                                             
                                  
                                 </div>
                               </div>    
