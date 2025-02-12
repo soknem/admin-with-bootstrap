@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    font-family: "Quicksand", serif;
+}
+.nav-left{
+    min-width: 250PX;
+    background: rgb(20, 14, 59);
+    height: 100vh;
+    color: white;
+
+}
+.nav h1 ,.nav i{
+    font-size: 20px;
+}
+.nav-menu .menu{
+    font-size: 1rem;
+}
+.nav-menu{
+    padding-top: 1rem;
+    cursor: pointer;
+}
+.nav-menu:hover{
+    background-color: #3c3838;
+}
+.main{
+    background-color: #b8b3b3;
+}
+.bnt{
+    background-color:rgb(88, 88, 194);
+    border: none;
+    padding: 2px;
+}
+.search{
+    border: none;
+}
+.profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* margin-right: 30px; */
+    border:1px solid white;
+}
+.card-nav .mark-text-card{
+    background-color: rgb(171, 131, 20);
+    border-radius: 5px;
+    font-size: 0.5rem;
+}
+.codszword{
+    background-color: rgb(124, 122, 125);
+    padding: 0.5rem;
+}
+.codszword h2{
+    font-size: 1.3rem;
+}
+.table-nav{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.table-1{
+    background-color: rgb(21, 17, 65);
+    color: white;
+}
